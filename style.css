@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap');
+
+body {
+  background-image: url(./Wine\ Cellar\ Tasting\ Invitation.png);
+  max-width: 100%;
+  object-fit: fill;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  padding-bottom: 70px;
+  min-height: 90vh;
+  
+}
+
+header {
+  text-align: center;
+  
+}
+
+h1 {
+  font-size: 36px;
+  padding: 15px;
+  color: #8c6b48;
+  background-color: white;
+}
+
+h2 {
+  font-size: 30px;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 70px;
+  margin-bottom: 0;
+  font-family: 'Oleo Script', cursive;
+  
+}
+
+.container h2 {
+  font-size: 24px;
+  padding: 15px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  padding: 15px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 500;
+  line-height: 2.7;
+  letter-spacing: 0.8px;
+}
+
+th {
+  border: 2px solid #8c6b48;
+}
+
+table {
+  text-align: center;
+  margin: 30px auto;
+}
+
+td {
+  border: 2px solid #8c6b48;
+  width: 300px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  bottom: 5px;
+  z-index: 5;
+  position: absolute;
+  
+}
+
+footer h3 {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  height: 600px;
+}
+
+.left {
+  width: 150px;
+}
